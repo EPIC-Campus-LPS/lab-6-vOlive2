@@ -1,4 +1,4 @@
-public class TestAutomobile {  
+public class Runner {  
     public static void main(String[] args) {  
   
 		// Creates a car with 35mpg and a max capacity of 8 gallons of gas. 
