@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class Trail {
+public class Trail implements CampObject {
 	private double length;
 	private double width;
 	Trail(double l, double w) {
@@ -18,9 +18,11 @@ public class Trail {
 	public double getWidth() {
 		return width;
 	}
+	@Override
 	public double getArea() {
 		return (length*width);
 	}
+	@Override
 	public double getPerimeter() {
 		return (length+width*2);
 	}
