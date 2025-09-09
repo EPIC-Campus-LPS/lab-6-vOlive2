@@ -6,9 +6,8 @@ public class CTRunner {
 		File file = new File("part.txt");
 		Scanner scan = new Scanner(file);
 		while(scan.hasNextLine()) {
-			
+			if(scan.nextLine().substring(0,3).equals("cam")) {}
+			else {}
 		}
-
 	}
-
 }
