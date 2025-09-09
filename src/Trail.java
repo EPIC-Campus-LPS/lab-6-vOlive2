@@ -24,7 +24,7 @@ public class Trail implements CampObject {
 	}
 	@Override
 	public double getPerimeter() {
-		return (length+width*2);
+		return ((length+width)*2);
 	}
 }
 
